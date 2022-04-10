@@ -16,7 +16,7 @@ function pauseAudio() {
   x.pause();
 }
 
-x.volume = 0.5;
+x.volume = 1;
 
 swal("Play the Music?", {
   buttons: {
@@ -43,8 +43,9 @@ swal("Play the Music?", {
 });
 
 const vol = document.querySelector(".vol-slider");
-
+vol.value = 90;
 vol.addEventListener("input", function () {
+  console.log(vol.value);
   x.volume = vol.value / 100;
 });
 
@@ -74,7 +75,7 @@ forward.addEventListener("click", function () {
   } else if (i == 3) {
     x.src = "https://audio.jukehost.co.uk/txqb64opWsLAOTOIqzP8U6GWRsOBwiAI"; // Teel Em Instrumental
   } else if (i == 4) {
-    x.src = "https://audio.jukehost.co.uk/0QCIOj59VTp11qOOL1qNG38OAKWOx7a6"; // yeat money so big
+    x.src = "https://audio.jukehost.co.uk/AyerHw9DqF0JADn6JzzgesqCjVMrnNeD"; // meh banakula
   } else if (i == 5) {
     x.src = "https://audio.jukehost.co.uk/lZ4csTTWPmC5D21A4Jo9yAZHhujnAKbt"; // kslv disaster
   } else if (i == 6) {
@@ -107,7 +108,7 @@ backward.addEventListener("click", function () {
   } else if (i == 3) {
     x.src = "https://audio.jukehost.co.uk/txqb64opWsLAOTOIqzP8U6GWRsOBwiAI"; // Teel Em Instrumental
   } else if (i == 4) {
-    x.src = "https://audio.jukehost.co.uk/0QCIOj59VTp11qOOL1qNG38OAKWOx7a6"; // yeat money so big
+    x.src = "https://audio.jukehost.co.uk/AyerHw9DqF0JADn6JzzgesqCjVMrnNeD"; // meh banakula
   } else if (i == 5) {
     x.src = "https://audio.jukehost.co.uk/lZ4csTTWPmC5D21A4Jo9yAZHhujnAKbt"; // kslv disaster
   } else if (i == 6) {
