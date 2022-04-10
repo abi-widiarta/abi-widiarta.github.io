@@ -89,7 +89,7 @@
   }
 
   .footer-title {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     letter-spacing: 0.2rem;
     margin-bottom: 0.4rem;
     text-decoration: underline;
@@ -113,7 +113,7 @@
     letter-spacing: 0.2rem;
     transition: 0.15s ease-in-out;
     text-decoration: none;
-    margin-top: 0.1rem;
+    margin-top: 12px;
   }
 
   .project-box a:hover {
@@ -192,7 +192,56 @@
     display: none;
   }
   .spectrum {
-    display: none;
+    height: 24px !important;
+    margin-top: 8px;
+    margin-left: -20px;
+  }
+
+  .play-pause {
+    /* border: 1px solid white; */
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+  .play-pause i {
+    font-size: 24px;
+  }
+
+  .play {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+  }
+
+  .pause {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+  }
+
+  .audio-full-control {
+    display: flex;
+  }
+
+  .forward {
+    margin-top: 5px;
+    margin-left: 10px;
+    /* margin-right: 10px; */
+    cursor: pointer;
+    font-size: 24px;
+  }
+
+  .backward {
+    margin-top: 5px;
+    margin-right: 26px;
+    cursor: pointer;
+    font-size: 24px;
   }
 }
 
