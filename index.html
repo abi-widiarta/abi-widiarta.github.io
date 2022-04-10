@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=VT323&display=swap" rel="stylesheet" />
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  </head>
+  <body>
+    <audio id="myAudio" loop>
+      <source class="audio-player" src="assets/playboi carti - meh banakula remix.mp3" type="audio/mpeg" />
+    </audio>
+    <div class="container">
+      <div class="nav">
+        <div class="audio-control">
+          <div class="audio-full-control">
+            <i class="fa-solid fa-backward-step backward"></i>
+            <div class="play-pause">
+              <!-- <i class="fa-solid fa-play play"></i>
+              <i class="fa-solid fa-pause pause"></i> -->
+            </div>
+            <i class="fa-solid fa-forward-step forward"></i>
+          </div>
+          <div class="slider">
+            <input class="vol-slider" type="range" />
+          </div>
+          <lottie-player class="spectrum" src="https://assets4.lottiefiles.com/private_files/lf30_biqii4vt.json" background="transparent" speed="1" style="width: 200px; height: 100px" autoplay loop rounded></lottie-player>
+        </div>
+        <div class="contact-box">
+          <a target="blank" href="https://www.instagram.com/abi.widiarta/"><i class="fa-brands fa-instagram ig"></i></a>
+          <a target="blank" href="https://wa.link/p4dihg"><i class="fa-brands fa-whatsapp wa"></i></a>
+          <a target="blank" href="https://line.me/ti/p/Iv7CdAIbS8"><i class="fa-brands fa-line line"></i></a>
+          <a target="blank" href="https://www.linkedin.com/in/i-wayan-abi-widiarta-b6b023237"><i class="fa-brands fa-linkedin linkedin"></i></a>
+          <a target="blank" href="https://github.com/abi-widiarta"><i class="fa-brands fa-github github"></i></a>
+        </div>
+      </div>
+      <div class="box-wrapper">
+        <div class="box">
+          <lottie-player class="lottie" src="https://assets10.lottiefiles.com/packages/lf20_o9gwt8z3.json" background="transparent" speed="1" style="width: 400px; height: 400px" autoplay loop rounded></lottie-player>
+          <div class="title-box">
+            <h1 class="title-1">ABI</h1>
+            <h1 class="title-2">WIDIARTA</h1>
+          </div>
+        </div>
+        <div class="box2">
+          <p>Just a boy who believes in <span></span></p>
+        </div>
+      </div>
+      <footer class="footer">
+        <p class="footer-title">PROJECTS</p>
+        <div class="arrow">
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="project-box">
+          <a class="project" href="https://abi-widiarta.github.io/lab-ase/" target="blank">Lab_ase_concept</a>
+          <a class="project" href="https://abi-widiarta.github.io/frontendmentor-rebuilt-html-css/" target="blank">Frontendpractice_rebuilt</a>
+          <a class="project" href="https://abi-widiarta.github.io/clock/" target="blank">Clock-angle</a>
+          <a class="project" href="https://abi-widiarta.github.io/simple-pixel-art/" target="blank">Simple_pixel_art</a>
+          <a class="project" href="https://abi-widiarta.github.io/kid-plus-calculator/" target="blank">Kid’s_plus_calculator</a>
+        </div>
+      </footer>
+    </div>
+    <script type="text/javascript" src="assets/JS/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".box"), {
+        max: 10,
+        speed: 400,
+        gyroscope: true, // Boolean to enable/disable device orientation detection,
+        gyroscopeMinAngleX: -45, // This is the bottom limit of the device angle on X axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the left border of the element;
+        gyroscopeMaxAngleX: 45, // This is the top limit of the device angle on X axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the right border of the element;
+        gyroscopeMinAngleY: -45, // This is the bottom limit of the device angle on Y axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the top border of the element;
+        gyroscopeMaxAngleY: 45, // This is the top limit of the device angle on Y axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the bottom border of the element;
+      });
+    </script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
