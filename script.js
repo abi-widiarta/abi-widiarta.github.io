@@ -1,3 +1,7 @@
+console.log("Mobile landscape rotation not supported yet");
+console.log("Use chrome for best experience");
+console.log("- Abi Widiarta");
+
 const playPause = document.querySelector(".play-pause");
 const spectrum = document.querySelector(".spectrum");
 const forward = document.querySelector(".forward");
@@ -75,7 +79,7 @@ forward.addEventListener("click", function () {
   } else if (i == 3) {
     x.src = "https://audio.jukehost.co.uk/txqb64opWsLAOTOIqzP8U6GWRsOBwiAI"; // Teel Em Instrumental
   } else if (i == 4) {
-    x.src = "https://audio.jukehost.co.uk/AyerHw9DqF0JADn6JzzgesqCjVMrnNeD"; // meh banakula
+    x.src = "https://audio.jukehost.co.uk/0QCIOj59VTp11qOOL1qNG38OAKWOx7a6"; // yeat
   } else if (i == 5) {
     x.src = "https://audio.jukehost.co.uk/lZ4csTTWPmC5D21A4Jo9yAZHhujnAKbt"; // kslv disaster
   } else if (i == 6) {
@@ -108,7 +112,7 @@ backward.addEventListener("click", function () {
   } else if (i == 3) {
     x.src = "https://audio.jukehost.co.uk/txqb64opWsLAOTOIqzP8U6GWRsOBwiAI"; // Teel Em Instrumental
   } else if (i == 4) {
-    x.src = "https://audio.jukehost.co.uk/AyerHw9DqF0JADn6JzzgesqCjVMrnNeD"; // meh banakula
+    x.src = "https://audio.jukehost.co.uk/0QCIOj59VTp11qOOL1qNG38OAKWOx7a6"; // yeat
   } else if (i == 5) {
     x.src = "https://audio.jukehost.co.uk/lZ4csTTWPmC5D21A4Jo9yAZHhujnAKbt"; // kslv disaster
   } else if (i == 6) {
@@ -136,7 +140,7 @@ x.addEventListener("ended", function () {
   }
 
   if (i == 0) {
-    x.src = "assets/yeat _ monëy so big instrumental﹝slowed + reverb﹞ (128 kbps).mp3";
+    x.src = "assets/meh banakula remix gain 3db.mp3";
   } else if (i == 1) {
     x.src = "assets/Playboi Carti Feel Like God (Instrumental With Hook).mp3";
   } else if (i == 2) {
@@ -144,7 +148,7 @@ x.addEventListener("ended", function () {
   } else if (i == 3) {
     x.src = "https://audio.jukehost.co.uk/txqb64opWsLAOTOIqzP8U6GWRsOBwiAI"; // Teel Em Instrumental
   } else if (i == 4) {
-    x.src = "https://audio.jukehost.co.uk/AyerHw9DqF0JADn6JzzgesqCjVMrnNeD"; // meh banakula
+    x.src = "https://audio.jukehost.co.uk/0QCIOj59VTp11qOOL1qNG38OAKWOx7a6"; // yeat
   } else if (i == 5) {
     x.src = "https://audio.jukehost.co.uk/lZ4csTTWPmC5D21A4Jo9yAZHhujnAKbt"; // kslv disaster
   } else if (i == 6) {
